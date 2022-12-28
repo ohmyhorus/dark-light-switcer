@@ -4,28 +4,45 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
     <title>Theme toggler</title>
 
+    <link href="https://fonts.googleapis.com/css?family=Tangerine">
+    <link rel="stylesheet" href="style.css">
     
-    <link rel="stylesheet" href="style.css"
-    href="https://fonts.googleapis.com/css?family=Tangerine">
     <script defer src="app.js"></script>
 </head>
 
 <body class="light">
 
     <nav class="navbar">
-        <ul class="navbar-nav"></ul>
+        <ul class="navbar-nav">
          <li class="nav-item">Home</li>
          <li class="nav-item">About</li>
+
+         <li class="nav-item has-dropdown">
+            <a href="#">Theme</a>
+            <ul class="dropdown">
+                <li class="dropdown-item">
+                    <a id="light" href="#">light</a>
+                </li>
+                <li class="dropdown-item">
+                    <a id="dark" href="#">dark</a>
+                </li>
+                <li class="dropdown-item">
+                    <a id="solar" href="#">solarize</a>
+                </li>
+            </ul>
+        </li>
+
          <li class="nav-item">Login</li>
+        </ul>
     </nav>
 
     <header>
-        <img src="file:///C:/Users/Sasha/Desktop/portofolioh/theme%20switcher/img/pochita.png" class="logo" height="300" width="250">
+        <img src="file:///C:/Users/Sasha/Desktop/portofolioh/theme%20switcher/img/pochita.png" class="logo" height="300" width="300">
          <h1>Front-end web Development, <br>Fired up</h1>
-          <p>Flutter, Firebase, JavaScript, Node.js</p>
+
+         <p>Flutter, Firebase, JavaScript, Node.js</p>
     </header>
 
     <main>
