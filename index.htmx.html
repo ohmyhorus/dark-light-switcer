@@ -5,11 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Light Dark Mode</title>
     <link rel="icon" type="image/png" href="favicon.png" />
-    <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css"
-    /> -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css"
+    />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <!--Dark mode switch-->
+    <div class="theme-switch-wrapper">
+      <span id="toggle-text">
+        <span class="toggle-text">Light Mode</span>
+        <i class="fas fa-sun"></i>
+      </span>
+      <label class="theme-switch"></label>
+      <input type="checkbox" />
+      <div class="slider round"></div>
+    </div>
     <!--Navigation-->
     <nav id="nav">
       <a htef="#home">HOME</a>
@@ -46,7 +58,11 @@
         </div>
         <div id="image-container">
           <h2>High concept</h2>
-          <img src="img/undraw_conceptual_idea_light.svg" alt="Idea"id="image3" />
+          <img
+            src="img/undraw_conceptual_idea_light.svg"
+            alt="Idea"
+            id="image3"
+          />
         </div>
       </div>
     </section>
@@ -71,7 +87,13 @@
       </div>
     </section>
     <!--contact-->
-    <section id="contact"></section>
+    <section id="contact">
+      <div class="social">
+        <i class="fab fa-github"></i>
+        <i class="fab fa-linkedin"></i>
+        <i class="fab fa-instagram"></i>
+      </div>
+    </section>
 
     <!-- Script -->
     <script src="script.js"></script>
